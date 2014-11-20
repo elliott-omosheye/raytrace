@@ -1,0 +1,38 @@
+﻿Build started 20/11/2014 11:17:42.
+     1>Project "C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\RayTracing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt colour.cpp light.cpp litscene.cpp mainray.cpp material.cpp point.cpp polygon.cpp ray.cpp scene.cpp simplecamera.cpp sphere.cpp vector.cpp
+         colour.cpp
+         light.cpp
+         litscene.cpp
+         mainray.cpp
+     1>mainray.cpp(72): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         material.cpp
+         point.cpp
+         polygon.cpp
+         ray.cpp
+         scene.cpp
+         simplecamera.cpp
+         sphere.cpp
+         vector.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\Release\RayTracing.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\Release\RayTracing.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\Release\RayTracing.lib" /MACHINE:X86 /SAFESEH Release\colour.obj
+         Release\light.obj
+         Release\litscene.obj
+         Release\mainray.obj
+         Release\material.obj
+         Release\point.obj
+         Release\polygon.obj
+         Release\ray.obj
+         Release\scene.obj
+         Release\simplecamera.obj
+         Release\sphere.obj
+         Release\vector.obj
+         Generating code
+         Finished generating code
+         RayTracing.vcxproj -> C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\Release\RayTracing.exe
+     1>Done Building Project "C:\Users\Elliott\Dropbox\COMP3080\raytrace\raytrace\RayTracing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.61

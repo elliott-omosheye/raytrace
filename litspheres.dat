@@ -1,0 +1,35 @@
+6
+
+0  0.0  0.0  0.0 	0.5 	0.2 0.2 0.2  0.6 0.4 0.2   0.1 0.3 0.3  5.0 
+0  1.1 -0.5 -1.0 	0.5 	0.2 0.2 0.2  0.4 0.6 0.1   0.0 0.0 0.0  0.0
+0  1.1 -0.5 -0.1 	0.5 	0.2 0.2 0.2  0.6 0.1 0.4   0.0 0.0 0.0  0.0
+0  0.0  0.6 -1.2 	0.5 	0.2 0.2 0.2  0.1 0.4 0.6   0.0 0.0 0.0  0.0
+0  0.0 -1.2 -0.5 	0.5 	0.2 0.2 0.2  0.6 0.5 0.5   0.0 0.0 0.0  0.0
+
+1 
+4  
+-1.0 -1.0 -1.0	1.0 -1.0 -1.0	1.0 1.0 -1.0	-1.0 1.0 -1.0  
+				0.2 0.2 0.2  0.6 0.4 0.2   0.1 0.3 0.3  5.0
+
+
+0.2 0.2 0.2
+2
+1.0 1.0 1.0    1.0 1.0 1.0   0
+1.0 1.0 0.0    0.6 0.7 0.8   1
+
+Note
+First line is always the number of objects
+
+Code 0 represents a sphere, followed by centre, radius and Colour
+
+Code 1 represents a polygon, followed by number of points and then the points
+and then the colour
+
+Colour is specified by 
+Ambient (must always be there), Diffuse, Specular and Shininess
+
+
+Lighting is specified by
+number of lights
+colour 		vector or point		0 for point light, 1 for directional
+

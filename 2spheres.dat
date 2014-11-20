@@ -1,0 +1,16 @@
+2
+
+0  -0.1  0.0  0.0 	0.5 	0.4 0.0 0.0  0.0 0.0 0.0   1.0 1.0 1.0  10.0 
+0  1.0  0.0  0.0 	0.5 	0.0 0.4 0.2  0.0 0.0 0.0   1.0 1.0 1.0  10.0
+
+0.2 0.2 0.2
+1
+1.0 1.0 1.0    1.0 1.0 1.0   0
+
+
+Note
+Lighting is specified by 
+Ambient (must always be there)
+number of lights
+colour 		vector or point		0 for point light, 1 for directional
+
